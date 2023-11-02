@@ -6,6 +6,4 @@ sealed class NoteOrder (val orderType: OrderType) {
     class Color(orderType: OrderType): NoteOrder(orderType)
 
 
-
-
 }
